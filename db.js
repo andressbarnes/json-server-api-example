@@ -1,7 +1,7 @@
 const casual = require('casual');
 
 module.exports = () => {
-  const data = { users: [], departments: [] };
+  let data = { users: [], departments: [] };
 
   //create department names
   const depNames = [
